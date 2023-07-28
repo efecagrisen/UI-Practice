@@ -27,6 +27,39 @@
     <input type="radio" name="food" value="salad">Salad
 <!-- checked would be selected by default when the page is refreshed   -->
 <!-- disabled would disable the button  -->
+<!-- name of the button should be same so that only one option can be selected. once selected you have to go with one of the options, you can not deselect   -->
+    <br>
+    <p>Pick a date:
+        <input type="date">
+    </p>
+        <input type="datetime-local" >
+    <br>
+    <p> Please upload your resume:
+        <br>
+        <input type="file">
+    </p>
+    <br>
+    <p>
+        Please select your favorite course:
+    </p>
+    <label for="java">
+        <input type="checkbox" name="course" value="java" id="java">Java
+    </label>
+
+    <input type="checkbox" name="course" value="DS">DS
+    <input type="checkbox" name="course" value="UI">UI
+    <input type="checkbox" name="course" value="softSkillClasses">Soft skill classes
+
+    <p>Please select the course:</p>
+    <select name="course">
+        <option value="" disabled selected>Select a course</option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">SDET</option>
+        <option value="cs">Cyber Security</option>
+
+    </select>
+
+
 
 
 </form>
