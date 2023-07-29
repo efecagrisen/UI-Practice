@@ -13,3 +13,30 @@ p{
     font-family: "Arial Narrow";
     color: #75C2F6;
 }
+
+/*#signUp{*/
+/*    background-color: blueviolet;*/
+/*    color: aliceblue;*/
+/*}*/
+
+.btn1{
+    background-color: darkred;
+    color: #75C2F6;
+    font-size: 30px;
+}
+
+/*.btnFont{*/
+/*    font-family: Cambria;*/
+/*}*/
+
+.btn1{
+    background-color: #982929;
+    color: #75C2F6;
+    font-size: 30px;
+}
+
+.btn1:hover{
+    background-color: #620000;
+    color: #235072;
+    font-size: 30px;
+}
